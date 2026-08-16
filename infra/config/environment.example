@@ -1,0 +1,9 @@
+# Copy to ~/.research.env
+
+# W&B
+export WANDB_ENTITY="your-entity"
+export WANDB_PROJECT="your-project"
+export WANDB_API_KEY="..."
+
+# Add other research-specific environment variables here.
+

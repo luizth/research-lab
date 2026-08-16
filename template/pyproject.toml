@@ -1,0 +1,30 @@
+[project]
+name = "research-project"
+version = "0.1.0"
+description = "Research project"
+requires-python = ">=3.14"
+
+dependencies = [
+    "numpy",
+    "pyyaml",
+    "ray",
+    "wandb",
+    # "pandas",
+    # "torch",
+    # "matplotlib",
+    # "gymnasium",
+    # "scipy",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
