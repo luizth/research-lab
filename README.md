@@ -13,6 +13,12 @@ chmod +x bootstrap.sh
 chmod +x scripts/*.sh
 
 ./bootstrap.sh
+
+git --version
+python3 --version
+uv --version
+claude --version
+herdr --version
 ```
 
 ## Running experiments
